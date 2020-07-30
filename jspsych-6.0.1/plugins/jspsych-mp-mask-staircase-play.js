@@ -488,7 +488,7 @@ if (runtime>0){
 
                 stimOff=performance.now()
                 firstStimOff=stimOff-startime;
-                //removeStim();
+                removeStim();
                 window.cancelAnimationFrame(frameRequestID)
                 firstDraw=false;
 
